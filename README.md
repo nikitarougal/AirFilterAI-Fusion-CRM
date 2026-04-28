@@ -2,7 +2,7 @@
 
 **An enterprise-grade conversational AI integration leveraging Microsoft Power Platform and Vapi to automate industrial sales inquiries, database lookups, and lead generation.**
 
-[System Architecture Diagram](.Docs/ArchitectureDiagram.png)
+![System Architecture Diagram](Docs/ArchitectureDiagram.png)
 
 ## 🚀 Project Overview
 
