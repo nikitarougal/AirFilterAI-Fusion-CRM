@@ -1,0 +1,130 @@
+{
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "object",
+            "properties": {
+                "toolCallList": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "function": {
+                                "type": "object",
+                                "properties": {
+                                    "arguments": {
+                                        "type": "object",
+                                        "properties": {
+                                            "dimensions": {
+                                                "type": "string"
+                                            },
+                                            "mervRating": {
+                                                "type": "integer"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "function"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+{
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "object",
+            "properties": {
+                "call": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "toolCallList": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "function": {
+                                "type": "object",
+                                "properties": {
+                                    "arguments": {
+                                        "type": "object",
+                                        "properties": {
+                                            "firstName": {
+                                                "type": "string"
+                                            },
+                                            "lastName": {
+                                                "type": "string"
+                                            },
+                                            "email": {
+                                                "type": "string"
+                                            },
+                                            "phoneNumber": {
+                                                "type": "string"
+                                            },
+                                            "querySummary": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "function"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+{
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "call": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "transcript": {
+                    "type": "string"
+                },
+                "recordingUrl": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
