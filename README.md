@@ -2,7 +2,7 @@
 
 **An enterprise-grade conversational AI integration leveraging Microsoft Power Platform and Vapi to automate industrial sales inquiries, database lookups, and lead generation.**
 
-![System Architecture Diagram](.Docs/ArchitectureDiagram.png)
+[System Architecture Diagram](.Docs/ArchitectureDiagram.png)
 
 ## 🚀 Project Overview
 
@@ -53,4 +53,4 @@ If you would like to deploy this architecture to your own environment:
    * Recreate the Custom Tools using the JSON schemas provided in `VoiceAI_Config/VapiCustomTools.json`, replacing the Server URLs with your newly generated Power Automate HTTP POST endpoints.
 
 ---
-*Created by Nikita Ruhal - Connect with me on [LinkedIn](#https://www.linkedin.com/in/nikita-ruhal/) to discuss Fusion Development, AI Integrations, and System Architecture!*
+*Created by Nikita Ruhal - Connect with me on [LinkedIn](https://www.linkedin.com/in/nikita-ruhal/) to discuss Fusion Development, AI Integrations, and System Architecture!*
